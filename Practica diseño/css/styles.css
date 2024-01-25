@@ -10,6 +10,10 @@
   ) !important;
 }
 
+.empresa-name{
+  color: #ec4112;
+}
+
 .navbar-nav .nav-link {
   overflow: hidden;
   text-overflow: ellipsis;

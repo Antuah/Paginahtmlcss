@@ -15,11 +15,11 @@
 
 <body>
     <header>
-        <div class="row p-3 bg-secondary border border-dark">
+        <div class="row p-3 bg-secondary border border-dark border-3" style="--bs-bg-opacity:.2;">
             <div class="col-md-2 d-none d-sm-block">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-                        <div class="col-1 col-md-3 ">
+                        <div class="col-1 col-md-6 ">
                             <img width="60" height="60" src="./assets/img/javalogo.png" alt="javalogo">
                         </div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,11 +45,134 @@
             </div>
         </div>
     </header>
-    <div class="row p-5">
+    <div class="row p-5 partesuperior">
         <h5 class="col-md-5">Bienvenido a nuestra familia</h5>
-        <h2 class="p-3">Bitbucket</h2>
+        <div class="border border-danger"></div>
+        <h2 class="row p-4 empresa-name">Java</h2>
+        <div class="col-1 col-md-6">
+            <div class="row">
+                <div class="col-md-9">
+                    <p class="row p-2">Somos una compañia basada en el desarrollo y creacion de software.<br>
+                        Open source que permita al usuario el desarrollo de aplicaciones o motores graficos en general
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 text-end">
+            <img width="120" height="80" src="./assets/img/java-mascota.png" alt="java-mascota">
+        </div>
     </div>
-    <i data-feather="minus"></i>
+    <div class="row p-5">
+        <div class="col-md-2">
+            <img width="130" height="100" src="./assets/img/logo-sdk.png" alt="logo-sdk">
+        </div>
+        <div class="col-md-2">
+            <img width="130" height="100" src="./assets/img/oracle-logo.png" alt="oracle-logo">
+        </div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="empresa-name">Nuestras ideas</h2>
+                    <p>
+                        En un tranquilo rincón del mundo, donde el tiempo parece detenerse,
+                        se encuentra un lugar único y especial.
+                        Sus paisajes pintorescos y su atmósfera acogedora cautivan a quienes tienen el privilegio de
+                        explorarlo.
+                        Con una rica historia que se refleja en cada calle </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="acercade">
+        <div class="row p-5 acercade">
+            <div>
+                <h5 class="col-md-5">Acerca de nosotros</h5>
+                <div class="border border-danger"></div>
+            </div>
+            <div class="conteiner">
+                <div class="row p-5">
+                    <div class="col-sm-6 col-md-6 mb-3 mb-md-0">
+                        <div class="card">
+                            <img src="./assets/img/oracle-empresa.jpg" class="card-img-top card-img-top-max"
+                                alt="Profesores toman cursos" style="height: 300px;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: orangered;">Profesores aplicando examenes</h5>
+                                <p class="card-text">Profesores estan preparados para aplicacion de examenes del nuevo
+                                    cuatrimestre</p>
+                                <div class="col-12 text-center">
+                                    <a href="" class="btn btn-link" style="color: rgb(240, 202, 35);">Share</a>
+                                    <a href="" class="btn btn-link" style="color: rgb(240, 202, 35);">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 mb-3 mb-md-0">
+                        <div class="card">
+                            <img src="./assets/img/Oracle_Inauguracion_Oficinas_Barcelona_1.original.jpg"
+                                class="card-img-top card-img-top-max" alt="Profesores toman medidas contra el COVID"
+                                style="height: 300px;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: orangered;">Curso para maestros</h5>
+                                <p class="card-text">Los docentes de la utez se capacitan en todo momento con
+                                    teconolgias
+                                    nuevas
+                                </p>
+                                <div= class="row">
+                                    <div class="col-12 text-center">
+                                        <a href="" class="btn btn-link" style="color: rgb(240, 202, 35);">Share</a>
+                                        <a href="" class="btn btn-link" style="color: rgb(240, 202, 35);">Explore</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="row p-5 contact">
+            <div>
+                <h5 class="col-md-5">Cóntactanos</h5>
+                <div class="border border-danger"></div>
+            </div>
+        </div>
+        <div class="container border border-dark rounded">
+            <form id="">
+                <div class="row">
+                    <!--Input-->
+                    <div class="col-12 col-md-6 my-3">
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <label for="">Correo Electronico <span class="text-danger">(*)</span></label>
+                                <input class="form-control" id="fullname" />
+                            </div>
+                            <div class="col-12 my-3">
+                                <label for="">Telefono <span class="text-danger">(*)</span></label>
+                                <input class="form-control" id="number" />
+                            </div>
+                            <div class="col-12 my-3">
+                                <label for="">Telefono de contacto <span class="text-danger">(*)</span></label>
+                                <input class="form-control" id="number" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 my-3">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="">Escribe aqui tus dudas <span class="text-danger">(*)</span></label>
+                                <textarea class="form-control" id="message" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3 col-12 text-center">
+                        <img width="44" height="44" src="./assets/img/Gmail_icon_(2020).png.png" alt="gmail_icon">
+                        <img width="44" height="44" src="./assets/img/logo_youtube.png" alt="youtube_icon">
+                        <img width="44" height="44" src="./assets/img/facebook_logo.png" alt="facebook_icon">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    </section>
     <script src="./js/bootstrap.bundle.js"></script>
-    <script>feather.replace()</script>
 </body>
