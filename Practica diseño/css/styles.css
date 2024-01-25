@@ -1,0 +1,17 @@
+.navbar-nav .nav-item {
+  white-space: nowrap;
+}
+
+.bg-secondary {
+  --bs-bg-opacity: .5;
+  background-color: rgba(
+    var(--bs-secondary-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
+}
+
+.navbar-nav .nav-link {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
